@@ -22,7 +22,7 @@ pipeline
                 steps
                 {
                      sh 'cucumber --init'
-                     sh 'cucumber'
+                     sh 'cucumber features: https://github.com/ukeyprity/Cucumber_Assignment'
                     
                 }
             }
