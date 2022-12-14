@@ -23,10 +23,10 @@ pipeline
                 {
                      sh 'cucumber --init'
                
-                    
+              
                 }
             }
           }
          
-        
- } 
+}      
+ 
