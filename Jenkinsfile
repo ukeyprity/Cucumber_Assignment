@@ -21,7 +21,8 @@ pipeline
             {
                 steps
                 {
-                    sh 'cucumber'
+                     sh 'cucumber --init'
+                     sh 'cucumber'
                     
                 }
             }
