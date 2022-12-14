@@ -13,7 +13,7 @@ pipeline
             {
                 steps
                 {
-                    sh 'gem install cucumber'
+                    sh 'bundle install'
                     
                 }
             }
